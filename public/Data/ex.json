@@ -1,0 +1,287 @@
+[
+  {
+    "id": 1,
+    "location": "Paris, France",
+    "description": "Paris, often called the City of Light (La Ville Lumière), is one of the most iconic and romantic cities in the world. It is the capital of France and a global center for art, fashion, gastronomy, and culture.",
+    "Tagline":"Where every street whispers a story.",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/paris.jpg?alt=media&token=c486d5b7-fda0-484f-a256-7fe742055b87",
+    "Amount":2000,
+    "famous_places": [
+      "Eiffel Tower",
+      "Louvre Museum",
+      "Notre Dame Cathedral",
+      "Champs-Élysées"
+    ]
+  },
+  
+   
+  {
+    "id": 2,
+    "location": "Tokyo, Japan",
+
+    "description": "Tokyo, the bustling capital of Japan, is a vibrant metropolis that seamlessly blends ultramodern innovation with rich traditions.",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/tokyo.jpg?alt=media&token=b93c2167-b385-41a0-9502-710b3c145cc7",
+    "Tagline":"Lost in the neon glow of Tokyo.",
+    "Amount":9000,
+    "famous_places": [
+      "Sensō-ji Temple",
+      "Shibuya Crossing",
+      "Tokyo Tower",
+      "Imperial Palace"
+    ]
+  },
+  {
+    "id": 3,
+    "location": "Bali, Indonesia",
+    "description": "Bali, often referred to as the Island of the Gods, is a mesmerizing paradise located in Indonesia. This enchanting island is renowned for its stunning landscapes, rich culture, warm hospitality, and spiritual ambiance. ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/bali.jpg?alt=media&token=3da38b2c-01da-4efd-ae9d-0d2082909234",
+    "Tagline":"Lost in the serenity of Bali's beauty.",
+    "Amount":12000,
+    "famous_places": [
+      "Tanah Lot Temple",
+      "Ubud Monkey Forest",
+      "Nusa Dua beaches",
+      "Tegallalang Rice Terraces"
+    ]
+  },
+  {
+    "id": 4,
+    "location": "Chicago, USA",
+    "description": "With its stunning architecture, vibrant arts scene, world-class dining, and rich history, Chicago offers a diverse range of experiences for visitors.  ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/Chicago.jpg?alt=media&token=ca5d587d-d2c1-43bf-ae57-a13153d6f665",
+    "Tagline":"Where urban energy meets architecture. ",
+    "Amount":5000,
+    "famous_places": [
+      "The Magnificent Mile",
+      "Millennium Park",
+      "Navy Pier",
+      "Willis Tower Skydeck"
+    ]
+  },
+  {
+    "id": 5,
+    "location": "New York, USA",
+    "description": "New York City, often referred to as The Big Apple or simply NYC, is one of the most iconic and vibrant cities in the world. It is a global hub of culture, art, finance, fashion, and entertainment, offering a multitude of experiences for visitors. ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/new%20york.jpg?alt=media&token=bd43459a-c4a4-4a6f-ada4-bcb19f682bf9",
+    "Tagline":"Concrete jungle where dreams made.",
+    "Amount":8000,
+    "famous_places": [
+      "Times Square",
+      "Central Park",
+      "Statue of Liberty and Ellis Island",
+      "Empire State Building"
+    ]
+  },
+  {
+    "id": 6,
+    "location": "Los Angeles, USA",
+    "description": " LA, is a sprawling metropolis located in Southern California. Famous for its sunny weather, diverse culture, entertainment industry, and beautiful beaches, LA offers a unique blend of urban sophistication and laid-back California vibes.",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/LA.jpg?alt=media&token=6de67c2b-8dbb-4fc8-ba98-9cbe0ad51bd0",
+    "Tagline":"Where the city of stars meets the land of dreams.",
+    "Amount":8000,
+    "famous_places": [
+      "Hollywood Sign",
+      "Hollywood Walk of Fame",
+      "Griffith Observatory",
+      " Santa Monica Pier"
+    ]
+  },
+ 
+  {
+    "id": 7,
+    "location": "Delhi, India",
+    "description": "Delhi, the capital city of India, is a vibrant and richly diverse metropolis with a fascinating history and a bustling modern culture.",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/delhi.jpg?alt=media&token=9bb5d6fb-0fa9-494f-ab45-1cf276c53790",
+    "Tagline":"Where history whispers and modernity hums. Delhi, a tale of two worlds.",
+    "Amount":4000,
+    "famous_places": [
+      "Red Fort (Lal Qila)",
+      "Qutub Minar",
+      " India Gate",
+      "Akshardham Temple"
+    ]
+  },
+  {
+    "id": 8,
+    "location": "Mumbai, India",
+    "description": "Mumbai, formerly known as Bombay, is the capital city of the Indian state of Maharashtra. It holds the distinction of being India’s financial capital and is also the country’s most populous city, with an estimated population of 12.5 million (1.25 crore) ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/mumbai.jpg?alt=media&token=540ca41c-3ef7-467e-a162-e053e95efeea",
+    "Tagline":"Where dreams meet the sea, Mumbai casts its spell. ",
+    "Amount":6000,
+    "famous_places": [
+      "Gateway of India",
+      "Marine Drive",
+      "Elephanta Caves",
+      "Haji Ali Dargah"
+    ]
+  },
+  {
+    "id": 9,
+    "location": "Kolkata, India",
+    "description": "Kolkata, formerly known as Calcutta, is a city steeped in rich history and vibrant culture. Located in the eastern part of India, Kolkata is the capital of the state of West Bengal and serves as a melting pot of diverse traditions, languages, and cuisines ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/kolkata.jpg?alt=media&token=64c301db-612a-4f2c-aa8e-c6464058b774",
+    "Tagline":"In the heart of Kolkata, every moment is a masterpiece.",
+    "Amount":3000,
+    "famous_places": [
+      "Victoria Memorial",
+      "Howrah Bridge",
+      " Indian Museum",
+      "Kalighat Kali Temple"
+    ]
+  },
+  {
+    "id": 10,
+    "location": "Berlin, Germany",
+    "description": "Berlin, the capital and largest city of Germany, holds a prominent place in European history and culture. ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/afar.brightspotcdn.webp?alt=media&token=2d26431a-7c7a-4f0f-8dd7-5fcee516b2f0 ",
+    "Tagline":"Where history meets innovation",
+    "Amount":5000,
+    "famous_places": [
+      "Brandenburg Gate",
+      "Reichstag Building",
+      "Berlin Wall and East Side Gallery",
+      "Museum Island "
+    ]
+  },
+  {
+    "id": 11,
+    "location": "Moscow, Russia",
+    "description": "Moscow, the capital city of Russia, is a vibrant and historic metropolis that serves as the country's political, cultural, and economic center.Moscow is a city where ancient architecture stands alongside modern skyscrapers, creating a fascinating blend of the old and the new. ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/moscos.jpg?alt=media&token=5719e734-0f07-48bf-b435-ced95a844db9",
+    "Tagline":"Exploring the heart of Russia, where history meets modernity.",
+    "Amount":6000,
+    "famous_places": [
+      "Red Square",
+      "Kremlin and Kremlin Museums",
+      "Bolshoi Theatre",
+      "Lenin's Mausoleum"
+    ]
+  },
+  {
+    "id": 12,
+    "location": "Saint Petersburg, Russia",
+    "description": "Saint Petersburg, often referred to as Russia's cultural capital, is a city of grandeur, elegance, and artistic richness.",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/Petersburg.jpg?alt=media&token=4954c0d8-7983-47f9-aa9b-4acbc7166cd5",
+    "Tagline":"Where history dances along the canals, and beauty whispers through the streets. ",
+    "Amount":7000,
+    "famous_places": [
+      "The State Hermitage Museum",
+      "The Winter Palace",
+      "The Peter and Paul Fortress",
+      "The State Russian Museum"
+    ]
+  },
+  {
+    "id": 13,
+    "location": "Singapore",
+    "description": "Singapore is a bustling metropolis that boasts a diverse mix of cultures, stunning modern architecture, lush green spaces, and a reputation for being one of the world's cleanest and safest cities.",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/Singapore.jpg?alt=media&token=959fc7ad-efd6-486a-b70b-5bb7e468af78",
+    "Tagline":"Where tradition meets innovation, every corner tells a story.",
+    "Amount":7000,
+    
+    "famous_places": [
+      "Marina Bay Sands",
+      "Gardens by the Bay",
+      "Sentosa Island",
+      "Singapore Zoo and Night Safari"
+    ]
+  },
+  {
+    "id": 14,
+    "location": "Toronto, Canada",
+    "description": "Toronto, the capital city of the province of Ontario, Canada, is a bustling and diverse metropolis known for its multiculturalism, iconic landmarks, world-class attractions, and vibrant neighborhoods.",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/Toronto.jpg?alt=media&token=ff677d59-fb75-461b-aef2-fab5f1d2928d",
+    "Tagline":"Where urban energy meets waterfront tranquility. ",
+    "Amount":10000,
+    "famous_places": [
+      "CN Tower",
+      "Royal Ontario Museum",
+    "Toronto Islands",
+    "Distillery District"
+    ]
+  },
+  {
+    "id": 15,
+    "location": "Rome, Italy",
+    "description": "Rome, the capital city of Italy, is a mesmerizing blend of ancient history, magnificent architecture, vibrant culture, and delectable cuisine. As one of the most iconic cities in the world, Rome holds a special place in the hearts of travelers and history enthusiasts alike.",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/rome.jpg?alt=media&token=c51ceb07-5c60-4402-8ff3-98cf0620aff7",
+    "Tagline":"Roaming through history in the Eternal City.",
+    "Amount":12000,
+    "famous_places": [
+      "Colosseum",
+      "Roman Forum",
+      "Pantheon",
+      "Trevi Fountain"
+    ]
+  },
+  {
+    "id": 16,
+    "location": "Dubai, UAE",
+    "description": "Dubai is one of the seven emirates that make up the United Arab Emirates (UAE), and it's often considered one of the most vibrant and cosmopolitan cities in the world. ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/photo_2_2024-04-14_09-22-09.jpg?alt=media&token=ff6698c6-1723-40dd-983c-b3e14aa808a8",
+    "Tagline":"Where modern marvels meet desert dreams.",
+    "Amount":11000,
+    "famous_places": [
+      "Burj Khalifa",
+      "Palm Jumeirah",
+      "The Dubai Mall",
+      " Burj Al Arab"
+    ]
+  },
+  {
+    "id": 17,
+    "location": "Sydney, Australia",
+    "description": "Sydney, the capital of New South Wales and one of Australia's largest cities, is a vibrant and diverse metropolis known for its iconic landmarks, stunning harbor, beautiful beaches, and thriving cultural scene. ",
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/photo_3_2024-04-14_09-22-09.jpg?alt=media&token=0bbafa7a-a7ca-4608-b9ad-461cdfec42e7",
+    "Tagline":" Where the cityscape meets the sea breeze",
+    "Amount":14000,
+    "famous_places": [
+      "Sydney Opera House",
+      "Sydney Harbour Bridge",
+      "Bondi Beach",
+      "The Rocks"
+    ]
+  },
+  {
+    "id": 18,
+    "location": "Barcelona, Spain",
+    "description": "Barcelona, the vibrant capital of Catalonia in Spain, is a city with a rich history, stunning architecture, lively culture, and a Mediterranean flair that captivates visitors from around the world.",
+    "image_url":"https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/photo_1_2024-04-14_09-22-09.jpg?alt=media&token=75c150ad-b35d-488c-bcfd-fbc8504ebb81" ,
+    "Tagline":"Streets alive with the heartbeat of Barcelona.",
+    "Amount":15000,
+    "famous_places": [
+      "Sagrada Familia",
+      "Park Güell",
+      " La Rambla",
+      "Gothic Quarter"
+    ]
+  },
+  {
+    "id": 19,
+    "location": "Hong Kong",
+    "description": "Hong Kong, a bustling metropolis on the southeastern coast of China, is a city of contrasts where East meets West, tradition blends with modernity, and skyscrapers tower over ancient temples. ",
+    "image_url":"https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/photo_5_2024-04-14_09-22-09.jpg?alt=media&token=481598cd-d1b8-4b16-a7f5-152d8a3c30e7" ,
+    "Tagline":"Where East meets West in a symphony of lights and culture.",
+    "Amount":18000,
+    "famous_places": [
+      "Victoria Peak ",
+      "Victoria Harbour",
+      " Lantau Island and Tian Tan Buddha",
+      "Hong Kong Disneyland"
+    ]
+  },
+  {
+    "id": 20,
+    "location": "Amesterdam, Netherlands",
+    "description": "Amsterdam, the capital city of the Netherlands, is a vibrant and picturesque metropolis known for its historic canals, artistic heritage, lively culture, and relaxed atmosphere.",
+    "image_url":"https://firebasestorage.googleapis.com/v0/b/fir-auth-1c3bc.appspot.com/o/photo_4_2024-04-14_09-22-09.jpg?alt=media&token=47a76c06-d47f-495b-bbbd-ec2763bfaed0" ,
+    "Tagline":"Exploring the picturesque canals of Amsterdam",
+    "Amount":7000,
+    "famous_places": [
+      "Anne Frank House",
+      "Van Gogh Museum",
+      " Rijksmuseum",
+      "Jordaan District"
+    ]
+  }
+]
