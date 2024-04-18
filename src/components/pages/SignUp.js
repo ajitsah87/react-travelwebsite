@@ -42,6 +42,7 @@ console.log(formData)
         localStorage.setItem("userInfo", JSON.stringify(data))
         toast.dismiss()
         toast.success("registered successfully")
+        Navigate("/services")
         closeModal()
     } catch (err) {
         if (err.response) {
