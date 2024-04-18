@@ -18,8 +18,7 @@ export default function Destination() {
       return data.find((destination) => destination._id === id);
     }
   }, [data]);
-  if (loading ) return <div>loading...</div>;
-  if (error) return <div>{JSON.stringify(error, null, 2)}</div>;
+
 
   const [modalOpen, setModalOpen] = useState(false);
   const [count, setCount] = useState(1);
@@ -34,6 +33,8 @@ export default function Destination() {
     const { id, value } = e.target;
     setBookData({ ...bookData, [id]: value });
   };
+  if (loading ) return <div>loading...</div>;
+  if (error) return <div>{JSON.stringify(error, null, 2)}</div>;
   const increment = () => {
     if (count < 10) {
       setCount(count + 1);
