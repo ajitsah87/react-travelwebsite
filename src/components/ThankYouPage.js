@@ -11,7 +11,7 @@ const navigate = useNavigate()
         </div>
         <div className="flex flex-col items-center bg-white px-4 py-10">
           <h2 className="mb-2 text-3xl font-bold text-rose-500 sm:text-4xl">Thank you!</h2>
-          <p className="mb-8 font-medium text-gray-500">For supporting me with your donation</p>
+         
           <div className="flex items-center rounded-xl bg-rose-500 p-4">
           
               <button className="font-medium text-white" onClick={()=>{navigate("/")}}> Home</button>

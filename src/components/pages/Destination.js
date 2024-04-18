@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import useDataContext from "../../Hook/useDataContext";
 import axios from "axios";
 import { toast } from "sonner";
-
+import { useNavigate } from "react-router-dom";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
 
@@ -29,7 +29,7 @@ export default function Destination() {
     EndDate: "",
     personCount: 1,
   });
-  
+   const navigate=useNavigate()
   const handleChange = (e) => {
     const { id, value } = e.target;
     setBookData({ ...bookData, [id]: value });
@@ -60,14 +60,15 @@ export default function Destination() {
   console.log(bookData);
   const handleSubmit = async (e) => {
     e.preventDefault()
-
     toast.loading("Please wait..")
     try {
-        const token = JSON.parse(localStorage.getItem("userInfo") || "")?.token
-        const payload = {destinationId: id, startDate: bookData.StartDate, endDate: bookData.EndDate, personCount: bookData.personCount, }
-
-        const {data} = await axios.post("https://e-com-backend-neon.vercel.app/api/book_destination", payload,{headers:{Authorization:`Bearer ${token}`}})
-        console.log(data)
+      const token = JSON.parse(localStorage.getItem("userInfo") || "")?.token
+      const payload = {destinationId: id, startDate: bookData.StartDate, endDate: bookData.EndDate, personCount: bookData.personCount, }
+      
+      const {data} = await axios.post("https://e-com-backend-neon.vercel.app/api/book_destination", payload,{headers:{Authorization:`Bearer ${token}`}})
+      console.log(data)
+      navigate("/thankyou")
+      toast.dismiss()
     } catch (err) {
         console.log(err)
     }

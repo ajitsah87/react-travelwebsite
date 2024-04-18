@@ -7,8 +7,9 @@ import SignUp from './components/pages/SignUp';
 import Destination from './components/pages/Destination';
 import ScrollToTop from './components/ScrollToTop';
 import './App.css';
-import Cart from './components/Cart';
+
 import ThankYouPage from './components/ThankYouPage';
+import { Toaster } from 'sonner';
 
 
 
@@ -16,13 +17,14 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
+      <Toaster/>
       <ScrollToTop>
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/services' exact element={<Services />} />
           <Route path='/sign-up' exact element={<SignUp />} />
           <Route path='/services/:id' element={<Destination />} />
-          <Route path='/booked' element={<Cart />} />
+          
           <Route path='/thankyou' element={<ThankYouPage />} />
          
         </Routes>

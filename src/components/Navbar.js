@@ -47,11 +47,7 @@ function Navbar() {
                 Services
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link to='/booked' className='nav-links' onClick={ closeMobileMenu } >
-                History
-              </Link>
-            </li>
+           
             <li className='nav-item'>
               <Link to='/sign-up' className='nav-links-mobile' onClick={ closeMobileMenu } >
                 Sign up

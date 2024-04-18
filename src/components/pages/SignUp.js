@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
-import Cart from "../Cart";
+
 import {toast} from "sonner"
 import axios from "axios";
-
+import { useNavigate } from "react-router-dom";
 export default function SignUp() {
   const [formData, setFormData] = useState({
     name: "",
@@ -29,6 +29,7 @@ export default function SignUp() {
     const { id, value } = e.target;
     setSignInData({ ...signInData, [id]: value });
   };
+  const Navigate= useNavigate()
 console.log(formData)
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -39,6 +40,7 @@ console.log(formData)
         const {data} = await axios.post("https://e-com-backend-neon.vercel.app/api/user", formData)
         console.log(data)
         localStorage.setItem("userInfo", JSON.stringify(data))
+        toast.dismiss()
         toast.success("registered successfully")
         closeModal()
     } catch (err) {
@@ -60,8 +62,9 @@ console.log(formData)
         const {data} = await axios.post("https://e-com-backend-neon.vercel.app/api/user/auth", signInData)
         console.log(data)
         localStorage.setItem("userInfo", JSON.stringify(data))
-        toast.success("registered successfully")
-       
+        toast.dismiss()
+        toast.success("Sign In successfully")
+       Navigate("/services")
         closeModal()
     } catch (err) {
         if (err.response) {
